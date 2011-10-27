@@ -19,10 +19,9 @@
 }
 
 function login_go() {
-	document.write("YOU HAVE LOGGED IN, SIR");
+	window.location = "page0.html" ; 
 }	
 
 function login_no() {
 	document.getElementById("fail").innerHTML="GO AWAY";
 }
-
