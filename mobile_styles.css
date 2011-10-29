@@ -1,13 +1,13 @@
-body {width:1200px;position:relative;margin-left:auto;margin-right:auto;font-family: 'NeueHelvetica';}
+body {width:230px;margin-left:auto;margin-right:auto;font-family: 'NeueHelvetica';}
 
 /* holding the login stuff */
-#container {width:310px;margin:0 auto;margin-top:10%;padding:20px 20px 20px 20px;border: 6px solid #dcdcdc;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;position:relative;}
+#container {width:215px;margin:0 auto;padding:10px 0px 10px 0px;border: 6px solid #dcdcdc;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;position:relative;}
 
 /*#login {line-height:0;font-size:16px;color:#b4433f;}*/
 
-input.logsub {background-color:#666;padding:5px;color:#ddd;font-size:16px;font-family: 'NeueHelvetica';border: 3px solid #dcdcdc;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px; width:295px;}
+input.logsub {background-color:#666;padding:5px;color:#ddd;font-size:12px;font-family: 'NeueHelvetica';border: 3px solid #dcdcdc;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px; width:200px;}
 
-input.logsub[type="Button"] {margin-top:5px;color:#b4433f;background-color:#FFF;width:88px;}
+input.logsub[type="Button"] {margin-top:0px;color:#b4433f;background-color:#FFF;width:80px}
 
 input.logsub[type="Button"]:hover {background-color:#666;color:#FFF;}
 
@@ -17,11 +17,11 @@ input:focus  {color:#fff; background-color:#777;}
 
 input:active  {background-color:#111;}
 
-#bg {position:fixed;top:0;left:0;}
+#bg {display:none;}
 
-#fail {position:relative;float:right;color:red;font-size:16px;font-family: 'NeueHelvetica';}
+img.suzzy {width:215px;}
 
-img.suzzy {width:310px;}
+#fail {position:relative;float:right;color:red;font-size:12px;font-family: 'NeueHelvetica';}
 
 @font-face {
     font-family: 'NeueHelvetica';

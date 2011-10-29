@@ -25,3 +25,4 @@ function login_go() {
 function login_no() {
 	document.getElementById("fail").innerHTML="GO AWAY";
 }
+
